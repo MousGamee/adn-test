@@ -7,7 +7,7 @@ const ImageSlider = ({ slides }) => {
     const length = slides.length;
 
     useEffect(() => {
-        // autoSlide()
+        // autoSlide() decommenter pour lancer le slide
     }, [current])
 
     const autoSlide = () => {
